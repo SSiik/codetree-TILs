@@ -9,8 +9,7 @@ public class Main {
     public static void dfs(int x,int y,char cur,char[][] arr,int R,int C,int depth){
 
         
-        if(x==R-1 && y==C-1){
-            if(depth == 1) return; //바로 시작점에서 왓다면 제외시켜야함
+        if(x==R-1 && y==C-1 && depth == 3){
             ans++;
             return;
         }
