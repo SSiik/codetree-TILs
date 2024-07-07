@@ -2,6 +2,13 @@ import java.io.*;
 import java.lang.*;
 import java.util.*;
 
+/*
+    최대 ~~인 case를 구해라. 최소 ~~인 case를 구해라 할때,
+    조건들 숫자를 보고 완전탐색이 가능한지를 따져봐야 합니다.
+*/
+
+
+
 public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
