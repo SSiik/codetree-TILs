@@ -26,7 +26,7 @@ public class Main {
 
         
         int startFlag = 1;
-        while(startFlag < N-1 ){
+        while(startFlag < N-1 ){ // while문 의 flag를 통해서 내부 for문과 매핑 완전탐색 진행.
             int sum = 0;
             Info cur = new Info(arr[0].x,arr[0].y);
             for(int j=1;j<N-1;j++){ 
