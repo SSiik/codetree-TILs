@@ -9,7 +9,7 @@ public class Main {
     public static void dfs(int x,int y,char cur,char[][] arr,int R,int C,int depth){
 
         
-        if(x==R-1 && y==C-1 && depth == 3){
+        if(x==R-1 && y==C-1 && depth == 3){ // 출발점과 도착점 사이에 2곳을 지나야 도착점을 가야한다는 원리엿음
             ans++;
             return;
         }
